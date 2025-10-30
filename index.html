@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IceDelights - Ice Cream Parlor</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0"> 
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-navbar">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="./ice-logo.png" alt="Logo" width="120" class="me-2">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Home</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home 1</a></li>
+            <li><a class="dropdown-item" href="#">Home 2</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Shop 1</a></li>
+            <li><a class="dropdown-item" href="#">Shop 2</a></li>
+            <li><a class="dropdown-item" href="#">Shop 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blogs</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">One Column</a></li>
+            <li><a class="dropdown-item" href="#">Two Column</a></li>
+            <li><a class="dropdown-item" href="#">Three Column</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Faq's</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-search"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-bag-shopping"></i></a></li>
+        <li class="nav-item ms-3">
+          <a href="#" class="btn contact-btn px-4 py-2">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+    
+
+      <div class="col-lg-6 col-md-4 col-sm-2">
+        <div class="welcome" data-aos="fade-up">
+        <p class="welcome-text">Welcome to The</p>
+        <h1 class="hero-title">
+          Classic <span class="pink-text">Ice</span>
+          <span class="pink-text">Cream</span> Parlor
+        </h1>
+        <p class="hero-desc">
+          Savor the taste of traditional ice cream made with love and quality ingredients.
+        </p>
+        <a href="#" class="btn browse-btn mt-3">Browse Our Classic Flavors <i class="fa fa-arrow-right ms-2"></i></a>
+      </div>
+      </div>
+
+
+      <div class="col-lg-6 text-center position-relative" data-aos="zoom-in">
+        <div class="circle-bg">
+            <img src="./banner-image.png" alt="Ice Cream" class="img-fluid hero-img">
+            </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- about section -->
+
+ <section class="memory-section">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 position-relative text-center" data-aos="fade-up">
+          <img src="./relive-circle.png" alt="Left Circle" class="decor-left-circle">
+          <div class="circle-bg2"></div>
+          <img src="./relive-girl-image.png" alt="Girl eating ice cream" class="img-fluid girl-img">
+        </div>
+
+    
+        <div class="col-lg-6 position-relative" data-aos="zoom-in">
+          
+          <img src="./relive-doted.png" alt="Dots" class="decor-dots">
+          <h2 class="memory-title">
+            Relive the Sweet<br> Memories of Classic <br>
+            <span class="pink-text">Ice Creams</span>
+          </h2>
+          <p class="memory-desc mt-3">
+            From rich chocolate fudge to creamy vanilla sundaes, discover our menu of classic ice cream creations made with love and nostalgia.
+          </p>
+          <a href="#" class="btn explore-btn mt-4">
+            Explore Our Menu <i class="fa fa-arrow-right ms-2"></i>
+          </a>
+          <img src="./relive-triangle.png" alt="Triangle" class="decor-triangle">
+          <img src="./relive-rightbottomimage.png" alt="Bottom Circle" class="decor-bottom-circle">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- card section favorites -->
+  
+  <section class="favorites-section">
+   
+    <img src="./classic-leftimage.png" alt="Decor Left" class="left-bg" />
+    <img src="./classic-rightimage.png" alt="Decor Right" class="right-bg" />
+
+    <div class="container position-relative" data-aos="fade-up">
+      <h2>Our <span>Classic</span> Favorites</h2>
+      <p class="para">Check out our top products that our customers love.</p>
+
+      <div class="swiper card-swiper">
+        <div class="swiper-wrapper">
+          
+          
+          <div class="swiper-slide">
+            <div class="img-box img1" data-aos="fade-up">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image1.png" class="product-img" alt="Strawberry Shortcake" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Strawberry Shortcake</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Strawberry ice cream layered with shortcake.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.29</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+        
+          <div class="swiper-slide">
+            <div class="img-box img2">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image2.png" class="product-img" alt="Mint Chocolate Chip" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Mint Chocolate Chip</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <p class="product-desc">Refreshing mint ice cream with chocolate chips.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$3.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box img3">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image3.png" class="product-img" alt="Vanilla Ice Cream" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Vanilla Ice Cream</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
+            </div>
+            <p class="product-desc">Creamy vanilla ice cream topped with cherry.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$4.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box img4">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image4.png" class="product-img" alt="Chocolate Brownie Sundae" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Brownie Sundae</h5>
+              <span class="rating"><i class="fa-regular fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Rich chocolate ice cream with chunks of brownie.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.49</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="img-box img1">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image1.png" class="product-img" alt="Strawberry Shortcake" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Strawberry Shortcake</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Strawberry ice cream layered with shortcake.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.29</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+            <div class="swiper-slide">
+            <div class="img-box img2">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image2.png" class="product-img" alt="Mint Chocolate Chip" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Mint Chocolate Chip</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <p class="product-desc">Refreshing mint ice cream with chocolate chips.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$3.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+        
+          <div class="swiper-slide">
+            <div class="img-box img3">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image3.png" class="product-img" alt="Vanilla Ice Cream" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Vanilla Ice Cream</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
+            </div>
+            <p class="product-desc">Creamy vanilla ice cream topped with cherry.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$4.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box img4">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./classic-image4.png" class="product-img" alt="Chocolate Brownie Sundae" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Brownie Sundae</h5>
+              <span class="rating"><i class="fa-regular fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Rich chocolate ice cream with chunks of brownie.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.49</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- categories section -->
+
+  <section class="categories-section">
+    <div class="container-fluid no-padding">
+      <div class="section-title" data-aos="fade-up">
+        
+        <h2>Explore Our <span>Categories</span></h2>
+        <p>Browse through our different categories to find your favorite ice cream treats.</p>
+     
+      </div>
+
+      <div class="row g-4 m-0" data-aos="fade-up">
+        <div class="col-md-3 col-sm-6 p-0">
+          <div class="category-card">
+            <div class="image-wrapper">
+              <img src="./categories-image1.jpg" alt="Sundaes">
+            </div>
+            <div class="category-content">
+              <h5>Sundaes</h5>
+              <button class="btn-icon"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 p-0">
+          <div class="category-card">
+            <div class="image-wrapper">
+              <img src="./categories-image2.jpg" alt="Ice Cream Cones">
+            </div>
+            <div class="category-content">
+              <h5>Ice Cream Cones</h5>
+              <button class="btn-icon"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 p-0">
+          <div class="category-card">
+            <div class="image-wrapper">
+              <img src="./categories-image3.jpg" alt="Milkshakes">
+            </div>
+            <div class="category-content">
+              <h5>Milkshakes</h5>
+              <button class="btn-icon"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 p-0">
+          <div class="category-card">
+            <div class="image-wrapper">
+              <img src="./categories-image4.jpg" alt="Seasonal Flavors">
+            </div>
+            <div class="category-content">
+              <h5>Seasonal Flavors</h5>
+              <button class="btn-icon"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <section class="special-con position-relative">
+
+    <div class="special-rightimage">
+      <img src="./special-rightimage.png" alt="background" />
+    </div>
+
+    <div class="container position-relative">
+      
+      <div class="special-triangle">
+        <img src="./special-triangle.png" alt="triangle" class="img-fluid" />
+      </div>
+
+      <div class="special-doted">
+        <img src="./special-doted.png" alt="dots" class="img-fluid" />
+      </div>
+
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 col-md-12">
+          <div class="special_content" data-aos="fade-up">
+            <h2 class="text-white">Summer<br>Special</h2>
+            <p class="text-white">Buy One Sundae, Get One 50% Off!</p>
+            <a href="#" class="all_button">Get This Deal <i class="fa-solid fa-arrow-right"></i></a>
+            <span>Use code: <strong>SUMMER50</strong> at checkout.</span>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 text-lg-left text-center mt-5 mt-lg-0">
+          <div class="special_wrapper position-relative">
+            <div class="special-dotedarrow">
+              <img src="./special-dotedarrow.png" alt="rope" class="img-fluid" />
+            </div>
+
+            <div class="circle-text">
+              <span class="persent">50%</span>
+              <span class="text">OFF</span>
+            </div>
+
+            <div class="special-image" data-aos="zoom-in">
+              <img src="./special-image.png" alt="ice cream bowl" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="favorites-section">
+
+    <div class="container position-relative" data-aos="fade-up">
+      <h2>Our <span>Best </span> Sellers</h2>
+      <p class="para">Discover the favorites that keep our customers coming back for more.</p>
+
+      <div class="swiper card-swiper">
+        <div class="swiper-wrapper">
+          
+          
+           <div class="swiper-slide" data-aos="fade-up">
+            <div class="img-box img1">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image1.png" class="product-img" alt="Strawberry Shortcake" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Strawberry Shortcake</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Strawberry ice cream layered with shortcake.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.29</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+        
+          <div class="swiper-slide">
+            <div class="img-box img2">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image2.png" class="product-img" alt="Mint Chocolate Chip" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Rocky Road Sundae</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <p class="product-desc">Marshmallow and nutty rocky road ice cream</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$3.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box img3">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image3.png" class="product-img" alt="Vanilla Ice Cream" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Peach Melba Sundae</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
+            </div>
+            <p class="product-desc">Peach ice cream topped with raspberry sauce </p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$4.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box img2">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image4.png" class="product-img" alt="Mint Chocolate Chip" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Rocky Road Sundae</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <p class="product-desc">Marshmallow and nutty rocky road ice cream</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$3.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="img-box img1">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image1.png" class="product-img" alt="Strawberry Shortcake" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Strawberry Shortcake</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Strawberry ice cream layered with shortcake.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.29</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+            <div class="swiper-slide">
+            <div class="img-box img2">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image2.png" class="product-img" alt="Mint Chocolate Chip" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Mint Chocolate Chip</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+            </div>
+            <p class="product-desc">Refreshing mint ice cream with chocolate chips.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$3.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+        
+          <div class="swiper-slide">
+            <div class="img-box img3">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image3.png" class="product-img" alt="Vanilla Ice Cream" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Vanilla Ice Cream</h5>
+              <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
+            </div>
+            <p class="product-desc">Creamy vanilla ice cream topped with cherry.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$4.99</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide">
+            <div class="img-box img4">
+              <div class="wishlist"><i class="fa-regular fa-heart"></i></div>
+              <img src="./seller-image4.png" class="product-img" alt="Chocolate Brownie Sundae" />
+            </div>
+            <div class="title-rating">
+              <h5 class="product-title">Brownie Sundae</h5>
+              <span class="rating"><i class="fa-regular fa-star"></i> 4.9</span>
+            </div>
+            <p class="product-desc">Rich chocolate ice cream with chunks of brownie.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="product-price">$5.49</p>
+              <div class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial-section">
+    <div class="testimonial-image">
+    <img src="./testimonial-image1.png" alt="User" class="floating-img img1">
+    <img src="./testimonial-image2.png" alt="User" class="floating-img img2">
+    <img src="./testimonial-image3.png" alt="User" class="floating-img img3">
+    <img src="./testimonial-image4.png" alt="User" class="floating-img img4">
+    <img src="./testimonial-image5.png" alt="User" class="floating-img img5">
+    <img src="./testimonial-image6.png" alt="User" class="floating-img img6">
+    <img src="./testimonial-image7.png" alt="User" class="floating-img img7">
+    <img src="./testimonial-image8.png" alt="User" class="floating-img img8">   
+    </div>
+    
+    <div class="testimonial-quoteimage mb-0 position-absolute">
+      <img src="./testimonial-quoteimage.png" alt="" class="img-fluid">
+    </div>
+
+    <div class="container">
+      <div class="happy">
+      <h2>Hear from Our <span>Happy Ice Cream </span>Lovers</h2>
+      </div>
+     
+      <div class="swiper testimonial-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-aos="fade-up">
+            <p class="testimonial-text">
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo rem praesentium numquam eos libero. Accusamus laborum nihil ipsa est odio sed suscipit atque veritatis. Provident, dicta? Temporibus, iste consequuntur corporis aliquam laudantium ab nostrum repudiandae ullam ducimus laboriosam recusandae voluptate?
+            </p>
+            <div class="customer-info">
+              <h5>Kevin Andrew</h5>
+              <p>Happy Customer</p>
+            
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <p class="testimonial-text">
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo rem praesentium numquam eos libero. Accusamus laborum nihil ipsa est odio sed suscipit atque veritatis. Provident, dicta? Temporibus, iste consequuntur corporis aliquam laudantium ab nostrum repudiandae ullam ducimus laboriosam recusandae voluptate?
+            </p>
+            <div class="customer-info">
+              <h5>Sophia Grace</h5>
+              <p>Frequent Buyer</p>
+ 
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <p class="testimonial-text">
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo rem praesentium numquam eos libero. Accusamus laborum nihil ipsa est odio sed suscipit atque veritatis. Provident, dicta? Temporibus, iste consequuntur corporis aliquam laudantium ab nostrum repudiandae ullam ducimus laboriosam recusandae voluptate?
+            </p>
+            <div class="customer-info">
+              <h5>Daniel Clark</h5>
+              <p>Returning Customer</p>
+ 
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </div>
+  </section>
+    <section class="subscribe-section">
+    <img src="./relive-circle.png" alt="Circle Shape" class="circle-shape">
+    <img src="./relive-triangle.png" alt="Triangle Shape" class="triangle-shape">
+
+    <div class="container">
+      <h2>Sign up For <span>Exclusive Deals</span><br>and Updates</h2>
+      <p>Get 10% off your next order and stay updated with our latest offers.</p>
+
+      <form class="subscribe-form">
+        <input type="email" placeholder="Enter Your Email Address" required>
+        <button type="submit">
+          Subscribe <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+
+      <div class="privacy">
+        <input type="checkbox" required> I agree to the <a href="#">Privacy Policy</a>.
+      </div>
+    </div>
+  </section>
+
+
+   <section class="instagram-section position-relative">
+  <div class="container text-center" data-aos="fade-up">
+    <h2 class="fw-bold mb-3">
+      Follow Us on <span class="text-pink">Instagram</span>
+    </h2>
+    <p class="mb-5">
+      Join our Instagram community for updates, special deals, and more!
+    </p>
+
+    <div class="row justify-content-center g-4">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up">
+        <div class="insta-card position-relative overflow-hidden">
+          <img src="./follow-image1.jpg" alt="Instagram Image">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="insta-card position-relative overflow-hidden">
+          <img src="./follow-image2.jpg" alt="Instagram Image">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="insta-card position-relative overflow-hidden">
+          <img src="./follow-image3.jpg" alt="Instagram Image">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="insta-card position-relative overflow-hidden">
+          <img src="./follow-image4.jpg" alt="Instagram Image">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="insta-card position-relative overflow-hidden">
+          <img src="./follow-image1.jpg" alt="Instagram Image">
+          <div class="overlay d-flex align-items-center justify-content-center">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+    
+<section class="footer-con position-relative">
+  <div class="footer-image mb-0">
+    <img src="./footer-image.png" alt="" class="img-fluid">
+  </div>
+
+  <div class="container">
+    <div class="middle_portion">
+      <div class="row">
+        <div class="col-lg-2 col-md-12 col-sm-6 col-12 order-md-1 order-sm-1 order-1">
+            <a href="#">
+              <div class="footer-logo mb-0">
+                <img class="img-fluid" src="./footer-logo.png" alt="">
+              </div>
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 order-md-2 order-sm-4 order-2">
+          <div class="links">
+            <h5 class="heading">Navigation</h5>
+            <div class="pages">
+              <ul class="list-unstyled mb-0 list1">
+                <li>
+                  <i class="fas fa-circle"></i>
+                  <a href="#">Home</a>
+                </li>
+
+                <li>
+                  <i class="fas fa-circle"></i>
+                  <a href="#">About</a>
+                </li>
+
+                <li>
+                  <i class="fas fa-circle"></i>
+                  <a href="#">Shop</a>
+                </li>
+              </ul>
+
+              <ul class="list-unstyled mb-0">
+                  <li>
+                  <i class="fas fa-circle"></i>
+                  <a href="#">Products</a>
+                </li>
+
+                <li>
+                  <i class="fas fa-circle"></i>
+                  <a href="#">Blog</a>
+                </li>
+
+                <li>
+                  <i class="fas fa-circle"></i>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12 order-md-3 order-sm-3 order-3">
+          <div class="info">
+            <ul class="list-unstyled mb-0">
+               <li>
+                <i class="fa-solid fa-location-dot"></i>
+               <div class="text">
+                <span>Address:</span>
+                <a href="#" class="text-decoration-none">2/36, senjerimalai , sulur, coimbatore</a>
+               </div>
+               </li>
+
+               <li>
+                <i class="fas fa-envelope-open-text"></i>
+               <div class="mail">
+                <span>Email:</span>
+                <a href="#" class="text-decoration-none">info@icedelights.com</a>
+               </div>
+               </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 order-md-4 order-sm-2 order-4">
+          <div class="icon">
+            <div class="phone_wrapper">
+              <i class="fa-solid fa-phone"></i>
+              <div class="phone_content">
+                <a href="#" class="text-decoration-none d-block">+91 9963408071</a>
+                <span>Got Questions? Call us 24/7</span>
+              </div>
+            </div>
+
+            <ul class="list-unstyled mb-0 social-icons text-decoration-none">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+               
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p class="mb-0">
+        Copyright © 2024 icedelights All rights reserved.
+      </p>
+    </div>
+  </div>
+   <div class="back-to-top" id="backToTop">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+</section>
+  </footer>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Your Custom JS -->
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
