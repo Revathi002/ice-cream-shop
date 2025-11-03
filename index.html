@@ -7,27 +7,27 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"> -->
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./style.css">
 </head>
 <body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0"> 
-
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg sticky-navbar">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center" href="#">
       <img src="./ice-logo.png" alt="Logo" width="120" class="me-2">
-      
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
+
+    <!-- Toggler with Font Awesome icons -->
+    <button class="navbar-toggler custom-toggler" id="menuToggle" type="button">
+      <i class="fa-solid fa-bars open-icon"></i>
+      <i class="fa-solid fa-xmark close-icon d-none"></i>
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
-         <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Home</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Home 1</a></li>
@@ -63,13 +63,14 @@
 </nav>
 
 
+
 <!-- Hero Section -->
 <section class="hero-section">
   <div class="container">
     <div class="row align-items-center">
     
 
-      <div class="col-lg-6 col-md-4 col-sm-2">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
         <div class="welcome" data-aos="fade-up">
         <p class="welcome-text">Welcome to The</p>
         <h1 class="hero-title">
@@ -112,13 +113,13 @@
           
           <img src="./relive-doted.png" alt="Dots" class="decor-dots">
           <h2 class="memory-title">
-            Relive the Sweet<br> Memories of Classic <br>
+            Relive the Sweet Memories of Classic
             <span class="pink-text">Ice Creams</span>
           </h2>
           <p class="memory-desc mt-3">
             From rich chocolate fudge to creamy vanilla sundaes, discover our menu of classic ice cream creations made with love and nostalgia.
           </p>
-          <a href="#" class="btn explore-btn mt-4">
+          <a href="#" class="btn explore-btn">
             Explore Our Menu <i class="fa fa-arrow-right ms-2"></i>
           </a>
           <img src="./relive-triangle.png" alt="Triangle" class="decor-triangle">
@@ -296,8 +297,8 @@
      
       </div>
 
-      <div class="row g-4 m-0" data-aos="fade-up">
-        <div class="col-md-3 col-sm-6 p-0">
+      <div class="row g-4 " data-aos="fade-up">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="category-card">
             <div class="image-wrapper">
               <img src="./categories-image1.jpg" alt="Sundaes">
@@ -309,7 +310,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 p-0">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="category-card">
             <div class="image-wrapper">
               <img src="./categories-image2.jpg" alt="Ice Cream Cones">
@@ -321,7 +322,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 p-0">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="category-card">
             <div class="image-wrapper">
               <img src="./categories-image3.jpg" alt="Milkshakes">
@@ -333,7 +334,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6 p-0">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
           <div class="category-card">
             <div class="image-wrapper">
               <img src="./categories-image4.jpg" alt="Seasonal Flavors">
@@ -366,9 +367,9 @@
 
       <div class="row align-items-center">
 
-        <div class="col-lg-6 col-md-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
           <div class="special_content" data-aos="fade-up">
-            <h2 class="text-white">Summer<br>Special</h2>
+            <h2 class="text-white">Summer Special</h2>
             <p class="text-white">Buy One Sundae, Get One 50% Off!</p>
             <a href="#" class="all_button">Get This Deal <i class="fa-solid fa-arrow-right"></i></a>
             <span>Use code: <strong>SUMMER50</strong> at checkout.</span>
@@ -640,7 +641,7 @@
     </p>
 
     <div class="row justify-content-center g-4">
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="fade-up">
+      <div class="col-6 col-sm-4 col-md-4 col-lg-2" data-aos="fade-up"3>
         <div class="insta-card position-relative overflow-hidden">
           <img src="./follow-image1.jpg" alt="Instagram Image">
           <div class="overlay d-flex align-items-center justify-content-center">
@@ -648,7 +649,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="col-6 col-sm-4 col-md-4 col-lg-2">
         <div class="insta-card position-relative overflow-hidden">
           <img src="./follow-image2.jpg" alt="Instagram Image">
           <div class="overlay d-flex align-items-center justify-content-center">
@@ -656,7 +657,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="col-6 col-sm-4 col-md-4 col-lg-2">
         <div class="insta-card position-relative overflow-hidden">
           <img src="./follow-image3.jpg" alt="Instagram Image">
           <div class="overlay d-flex align-items-center justify-content-center">
@@ -664,7 +665,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="col-6 col-sm-4 col-md-4 col-lg-2">
         <div class="insta-card position-relative overflow-hidden">
           <img src="./follow-image4.jpg" alt="Instagram Image">
           <div class="overlay d-flex align-items-center justify-content-center">
@@ -672,7 +673,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+      <div class="col-6 col-sm-4 col-md-4 col-lg-2">
         <div class="insta-card position-relative overflow-hidden">
           <img src="./follow-image1.jpg" alt="Instagram Image">
           <div class="overlay d-flex align-items-center justify-content-center">

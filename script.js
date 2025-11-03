@@ -12,6 +12,17 @@ window.addEventListener("scroll", function() {
   }
 });
 
+  const menuToggle = document.getElementById('menuToggle');
+  const navbarNav = document.getElementById('navbarNav');
+  const openIcon = menuToggle.querySelector('.open-icon');
+  const closeIcon = menuToggle.querySelector('.close-icon');
+
+  menuToggle.addEventListener('click', () => {
+    navbarNav.classList.toggle('show');
+    openIcon.classList.toggle('d-none');
+    closeIcon.classList.toggle('d-none');
+  });
+
 var swiper = new Swiper(".card-swiper", {
   slidesPerView: 4,
   spaceBetween: 25,
